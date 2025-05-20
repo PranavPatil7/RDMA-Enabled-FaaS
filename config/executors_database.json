@@ -1,0 +1,11 @@
+{
+  "executors": [
+    {
+      "node": "exec-mgr-node",
+      "address": "",
+      "port": 10005,
+      "cores": 1,
+      "memory": 512
+    }
+  ]
+}
