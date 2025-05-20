@@ -2,9 +2,6 @@
 
 **A high-performance FaaS platform with RDMA acceleration for function invocations.**
 
-![License](https://img.shields.io/github/license/spcl/rfaas)
-![GitHub issues](https://img.shields.io/github/issues/spcl/serverless-benchmarks)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/spcl/serverless-benchmarks)
 
 [<img alt="rFaaS vs HPC vs FaaS" src="docs/systems_comparison.png" height="200" align="right" title="rFaaS vs HPC vs FaaS"/>](docs/systems_comparison.png)
 The cloud paradigm Function-as-a-Service (FaaS) provides an ability to execute stateless and fine-grained functions on elastic and ephemeral resources. However, serverless struggles to achieve the performance needed in high-performance computing: slow invocations, low network bandwidth, and the overheads of the FaaS management system make it difficult to incorporate serverless functions when every millisecond counts. Therefore, we decided to combine the best of both worlds: elasticity of FaaS and high-performance of cluster batch systems. We built a new FaaS platform with RDMA-accelerated network transport.
@@ -91,9 +88,4 @@ To learn how to use rFaaS, please follow the [tutorial](docs/tutorial.md)
 
 For an in-depth analysis of each component and their configuration, please look at [the system documentation](docs/system.md).
 
-## Authors & Contributors
 
-* [Marcin Copik (ETH Zurich)](https://github.com/mcopik/) - main author.
-* [Konstantin Taranov (ETH Zurich)](https://github.com/TaranovK) - troubleshooting and optimizating RDMA.
-* [Marcin Chrapek (ETH Zurich)](https://github.com/marchrap) - libfabrics port and support for Cray GNI.
-* [ Nicolò Monaldini (University of Bologna)](https://github.com/nicolo-mn) - improvements to build and RDMA toolchains.
